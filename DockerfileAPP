@@ -12,6 +12,8 @@ RUN apk add --no-cache --virtual build-deps gcc python3-dev musl-dev \
     && pip install -r /tmp/requirements.txt \
     && apk del build-deps
 
+RUN python -m pip install --upgrade pip
+
 RUN rm -rf /tmp/requirements.txt
 
 WORKDIR /app

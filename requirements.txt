@@ -1,18 +1,18 @@
-aiohttp-jinja2==2.1.5
-aiohttp-session==3.7.4
-aiohttp==3.7.4
-aiopg==1.3.1
-aioredis==1.3.0
-async-timeout==3.0.1      # via aiohttp, aioredis
-attrs==21.2.0             # via aiohttp
-chardet==4.0.0            # via aiohttp
+aiohttp-jinja2
+aiohttp-session
+aiohttp
+aiopg
+aioredis
+async-timeout     # via aiohttp, aioredis
+attrs             # via aiohttp
+chardet           # via aiohttp
 hiredis         # via aioredis
-idna==3.2                 # via yarl
-jinja2==3.0.1              # via aiohttp-jinja2
-markupsafe==2.0.1         # via jinja2
-multidict==5.1.0          # via aiohttp, yarl
+idna                 # via yarl
+jinja2              # via aiohttp-jinja2
+markupsafe         # via jinja2
+multidict         # via aiohttp, yarl
 psycopg  # via aiopg
-pyyaml==5.4.1
-trafaret-config==2.0.2
-trafaret==2.1.0
-yarl==1.6.3               # via aiohttp
+pyyaml
+trafaret-config
+trafaret
+yarl              # via aiohttp
